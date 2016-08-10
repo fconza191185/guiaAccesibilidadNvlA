@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Guía didáctica sobre accesibilidad para desarrolladores (Nivel A).">
+	<meta name="keywords" content="HTML,CSS,Accesibilidad,WCAG 2.0, Nivel A">
+	<meta name="author" content="GICOWEB - Universidad Técnica de Machala.">
+	<title>Guía sobre accesibilidad web Nivel A - Principio 2: Operabilidad</title>
+</head>
+<body>
+<header>
+	<h1>Principio 2: Operabilidad</h1>
+	<p>Los componentes de la interfaz de usuario y la navegación deben ser operables.</p>
+</header>
+<section>
+	<article>
+		<h2>Pauta 2.2 Tiempo suficiente</h2>
+		<p>Proporcionarr a los usuarios el tiempo suficiente para leer y usar el contenido.</p>
+	</article>
+</section>
+<section>
+	<article>
+		<h3>Tiempo ajustable</h3>
+		<p>Para cada límite de tiempo impuesto por el contenido, se cumple al menos uno de los siguientes casos:</p>
+
+		<p><strong>Apagar: </strong>El usuario puede detener el límite de tiempo antes de alcanzar el límite de tiempo.</p>
+
+		<p><strong>Ajustar: </strong>El usuario puede ajustar el límite de tiempo antes de alcanzar dicho límite en un rango amplio que es, al menos, diez veces mayor al tiempo fijado originalmente.</p>
+
+		<p><strong>Extender: </strong>Se advierte al usuario antes de que el tiempo expirte u se le conceden al menos 20 segundos para extender el límite temporal con una acción simple y el usuario puede extender ese límite de tiempo al menos diez veces.</p>
+
+		<p><strong>Excepción de tiempo real: </strong>El límite de tiempo es un requisito que forma parte de un evento en tiempo real y no resulta posible ofrecer una alternativaal límite de tiempo.</p>
+
+		<p><strong>Excepción por ser esencial: </strong>El límite de tiempo es esencial y si se extendiera, invalidaría la actividad.</p>
+
+		<p><strong>Excepción de 20 horas: </strong>El límite de tiempo es mayor a 20 horas.</p>
+
+	</article>
+	<article>
+		<strong>Ejemplos:</strong>
+		<p>Una página de cotizaciones bursátiles utiliza la escritura para actualizar la página cada 10 minutos con el fin de garantizar siguen estando disponibles las últimas estadísticas. 20 segundos antes de que expire el período de cinco minutos, un diálogo de confirmación que le pregunta si el usuario necesita más tiempo antes de que se actualice la página. Esto permite que el usuario sea consciente de la inminente actualización y para evitar que si se desea.
+
+		<img src="./EjemplosGuia/Ejemplo-2.2.1-1.jpg">
+		</p>
+	</article>
+
+	<article>
+		<h3>Poner en pausa, detener, ocultar</h3>
+		<p>Para la información que tiene movimiento, parpadeo, se desplazará o sea actualiza automáticamente, se cumplen todos los casos siguientes.</p>
+
+		<p><strong>Movimiento, parpadeo, desplazamiento: </strong>Para toda información que se mueve, parpadeo o se desplaza, que comienza automáticamente, dura más de 5 segundos y se presenta en paralelo con otro contenido, existe un mecanismo para que el usuario la pueda poner en pausa, detener u ocultar, a menos que el movimiento, parpadeo o desplazamiento sea parte esencial de una actividad</p>
+
+		<p><strong>Actualización automática: </strong>Para toda la información que se actualiza automáticamente, que se inicia automáticamente y se presenta en paralelo con otro contenido, existe un mecanismo para que el usuario la pueda poner en pausa, detener u ocultar, o controlar la frecuencia deactualización a menos que la actualización automática sea parte esencial de una actividad.</p>
+
+	</article>
+	<article>
+		<strong>Ejemplos:</strong>
+		<p>Un clip de video genera un efecto de parpadeo, que pasado 5 segundos, el efecto se detiene automáticamente.</p>
+	</article>
+
+
+	<article>
+		<p>Un mensaje con la descripción "Nos ubicamos en la ciudadela Puertas del Lago en el local Número 32." es presentado de manera que el texto se desplaza a una determinada velocidad y además en la parte inferior posee la opción de pausar el movimiento del texxto y de reanudarlo.</p>
+
+		<p>Código HTML</p>
+		<img src="./EjemplosGuia/Ejemplo-2.2.2-1a.jpg">
+		<p>Código CSS</p>
+		<img src="./EjemplosGuia/Ejemplo-2.2.2-1b.jpg">
+		<p>JavaScript</p>
+		<img src="./EjemplosGuia/Ejemplo-2.2.2-1c.jpg">
+		<img src="./EjemplosGuia/Ejemplo-2.2.2-1d.jpg">
+		<img src="./EjemplosGuia/Ejemplo-2.2.2-1e.jpg">
+		
+	</article>
+</section>
+<footer>
+	Powered by GICOWEB
+</footer>
+</body>
+</html>

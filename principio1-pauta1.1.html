@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Guía didáctica sobre accesibilidad para desarrolladores (Nivel A).">
+	<meta name="keywords" content="HTML,CSS,Accesibilidad,WCAG 2.0, Nivel A">
+	<meta name="author" content="GICOWEB - Universidad Técnica de Machala.">
+	<title>Guía sobre accesibilidad web Nivel A - Principio 1: Perceptibilidad</title>
+</head>
+<body>
+<header>
+	<h1>Principio 1: Perceptible</h1>
+	<p>La información y los componentes de la interfáz de usuario deben ser presentados a los usuarios de modo que ellos puedean percibirlos</p>
+</header>
+<section>
+	<article>
+		<h2>Pauta 1.1 Alternativas textuales</h2>
+		<p>La información y los componentes de la interfáz de usuario deben ser presentados a los usuarios de modo que ellos puedean percibirlos</p>
+	</article>
+</section>
+<section>
+	<article>
+		<h3>Contenido no textual</h3>
+		<p>Todo contenido no textual que se presenta al usuario tiene una alternativa textual que cumple el mismo propósito, excepto en las situaciones enumeradas a continuación:</p>
+
+		<p><strong>Controles, entrada de datos: </strong>Si el contenido no textual es un control o acepta datos introducidos por el usuario, entonces tiene un nombre que describe su propósito.</p>
+		<p><strong>Contenido multimedia tempodependiente: </strong>Si el contenido no textual es una presentación multimedia con desarrollo temporal, entonces las alternativas textuales proporcionan al menos una identificación descriptiva del contenido no textual.</p>
+		<p><strong>Pruebas: </strong>Si el contenido no textual es una prueba o un ejercicio que no sería válido si se presentara en forma de texto, entonces las alternativas textuales proporcionan al menos una identificación descriptiva del contenido no textual.</p>
+		<p><strong>Sensorial: </strong>Si el contenido no textual tiene como objetivo principal el crear una experiencia sensorial específica, entonces las alternativas textuales proporcionan al menos una identificación descriptiva del contenido no textual.</p>
+		<p><strong>CAPTCHA: </strong>Si el propósito del contenido no textual es confirmar que quién está accediendo al contenido es una persona y no una computadora, entonces se proporcionarán alternativas textuales que identifican y describen el propósito del contenido no textual y se proporcionan alternativas de CAPTCHA con modos de salida para distintos tipos de percepciones sensoriales, con el fin de acomodarse a las diferentes discapacidades. </p>
+		<p><strong>Decoración, formato, invisible: </strong>Si el contenido no textual es simple decoración, se utiliza únicamente para definir el formato visual o no se presenta a los usuarios, entonces se implementa de forma que pueda ser ignorado por las ayudas técnicas.</p>
+	</article>
+	<article>
+		<strong>Ejemplos:</strong>
+
+		<p>1. Para un botón de búsqueda que tiene como imagen una lupa, el texto que debería poseer es 'buscar' en vez de 'lupa'.</p>
+
+		<img src="./EjemplosGuia/Ejemplo-1.1-1.jpg">
+
+		<p>2. Si una imagen o animación muestra como cambiar una llanta, un texto alternativo BREVE indica sobre que es la animación, mientras que un texto alternativo LARGO, describe como cambiar la llanta.</p>
+		<img src="./EjemplosGuia/Ejemplo-1.1-2a.jpg" width="400" height="350">
+		<img src="./EjemplosGuia/Ejemplo-1.1-2b.jpg">
+
+		<p>3. Para los logos, su texto alternativo debe ser el nombre de la compañia dueña del logotipo.</p>
+
+		<img src="./EjemplosGuia/Ejemplo-1.1-3.jpg">
+
+		<p>4. Una imagen contiene un encabezado con el titulo 'Historia de la computadora, su texto alternativo debe dcir 'Historia de la computadora'.</p>
+
+		<img alt="Historia de la Computadora" src="./imagenes/j1.jpg" width="300" height="350">
+		<img src="./EjemplosGuia/Ejemplo-1.1-4.jpg">
+		
+		<p>5. Si una imagen muestra la parte delantera de un objeto, el texto alternativo debe describir la parte delantera del objeto. </p>
+
+		<img alt="Imagen de un furby color rojo con ojos saltones y grandes orejas" src="./imagenes/furby.jpg" width="300" height="350">
+
+		<img src="./EjemplosGuia/Ejemplo-1.1-5.jpg">
+
+	</article>
+</section>
+
+<footer>
+	Powered by GICOWEB
+</footer>
+</body>
+</html>
